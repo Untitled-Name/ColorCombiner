@@ -1,0 +1,74 @@
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+  
+h2 {
+    font-size: 26px;
+    font-family: Helvetica, sans-serif;
+}
+  
+#date {
+    font-weight: bold;
+    color: #33AADD;
+    font-size: 15px;
+    margin: 0;
+}
+  
+.color-buttons {
+    height: 50px;
+    width: 100px;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+  
+#color-container {
+    margin: 10px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+
+.remove-button-decoration {
+    background: none;
+    border: none;
+    padding: none;
+    cursor: pointer;
+}
+
+#copy-button {
+    height: 100%;
+    width: 100%;
+}
+  
+#google-container {
+    background-color: #CCCCCC;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+  
+#google-text {
+    font-size: 14px;
+    font-family: tahoma;
+    font-weight: bold;
+    padding: 5px 20px;
+    color: black;
+}
+
+#google-container:hover {
+    background-color: #BBBBBB;
+}
+
+.remove-link-decoration {
+    text-decoration: none;
+}
+  
+#test-text {
+    margin-top: 20px;
+    max-height: 200px;;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+}
